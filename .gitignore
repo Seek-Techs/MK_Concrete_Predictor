@@ -1,0 +1,54 @@
+# Python environments
+.venv/
+venv/
+
+# Python cache and testing
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Secrets and environment configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor settings
+.vscode/
+
+# Research dataset - publication permission not confirmed
+Concrete_Modelling_Dataset_Step4A.xlsx
+Concrete_Modelling_Dataset_Step4A.csv
+
+# Research audit and intermediate workbooks
+Concrete_Crushing_Data_Audit*.xlsx
+Concrete_Final_Holdout_Evaluation*.xlsx
+Concrete_Model_Comparison*.xlsx
+Concrete_Model_Results*.xlsx
+Concrete_Repeated_CV_Results*.xlsx
+
+# Research reports
+*Technical_Report*.docx
+Technical Report.txt
+
+# Research notebook and supplementary figures
+EDA.ipynb
+Figure_4F_Actual_vs_Predicted.svg
+Figure_4F_Residuals.svg
+
+# Unreviewed screenshot
+figures/Screenshot*.png
+
+# Generated research-only outputs - not part of the deployed application
+artifacts/research_frozen_22point_model.joblib
+artifacts/research_holdout_predictions.csv
+artifacts/research_validation_summary.json
+figures/

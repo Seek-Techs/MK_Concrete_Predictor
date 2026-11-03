@@ -1,0 +1,23 @@
+{
+  "model_name": "Degree-2 polynomial regression pipeline",
+  "fit_data": "All 28 experimental-condition group means (operational refit)",
+  "n_fit_observations": 28,
+  "features": [
+    "MK_replacement_pct",
+    "curing_age_days"
+  ],
+  "target": "mean_MPa",
+  "mk_min_pct": 0.0,
+  "mk_max_pct": 30.0,
+  "age_min_days": 7,
+  "age_max_days": 90,
+  "degree": 2,
+  "polynomial_include_bias": false,
+  "preprocessing": "StandardScaler after PolynomialFeatures",
+  "regressor": "LinearRegression",
+  "dataset_filename": "Concrete_Modelling_Dataset_Step4A.xlsx",
+  "dataset_sha256": "af255a58ca666041fda592ab03d0cc296acc260f3a14cc1fae2f02d9cac4177f",
+  "python_version": "3.13.5",
+  "scikit_learn_version": "1.8.0",
+  "warning": "Operational model refitted on all 28 points; frozen 22-point model's holdout scores do not transfer to this artifact."
+}
